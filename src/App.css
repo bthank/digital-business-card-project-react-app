@@ -1,38 +1,106 @@
-.App {
+body {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  margin: 20px 10px 20px 10px;
+
+  width: 25%;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3%;
+}
+.header {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 3%;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.body-content {
+  margin-top: 0;
+  padding-top: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #10101f;
+  color: aliceblue;
+}
+.name-detail {
+  margin: auto;
+}
+.name {
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.job-title {
+  font-size: 1.3rem;
+  padding-top: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.personal-website {
+  font-size: 1.1rem;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 20px;
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contact-btns {
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+}
+.btn {
+  width: 100px;
+  height: 50px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 10px;
+  width: 150px;
+  border-radius: 11%;
+}
+.btn-email {
+  background-color: whitesmoke;
+  color: black;
+}
+.btn-linkedin {
+  background-color: cornflowerblue;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.info-detail {
+  margin-top: 20px;
+}
+.info {
+  margin: 0px 20px 0px 20px;
+  padding: 0px 20px 0px 20px;
+}
+.about-me {
+  margin: 0px 20px 0px 20px;
+  padding: 0px 20px 0px 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 1rem;
+  text-align: center;
+  padding: 20px 10px 20px 10px;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
 }
