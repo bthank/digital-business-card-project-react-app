@@ -22,7 +22,7 @@ body {
 
 .card-image {
   width: 100%;
-  border-radius: 3%;
+  border-radius: 20px;
   border-bottom-left-radius: 0%;
   border-bottom-right-radius: 0%;
   padding-bottom: 0;
@@ -71,7 +71,7 @@ body {
   font-weight: bold;
   margin: 10px;
   width: 150px;
-  border-radius: 11%;
+  border-radius: 5px;
 }
 .btn-email {
   background-color: whitesmoke;
@@ -101,6 +101,6 @@ body {
   font-size: 1rem;
   text-align: center;
   padding: 20px 10px 20px 10px;
-  border-bottom-left-radius: 10%;
-  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
